@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulador Hamburguesas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Simulador de Pedidos - Hamburguesas</h1>
+
+  <form id="pedidoForm">
+    <label for="combo">Seleccione Combo:</label>
+    <select id="combo" name="combo" required>
+
+    </select>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" value="1" required />
+
+    <button type="submit">Agregar al Carrito</button>
+  </form>
+
+  <h2>Carrito de Compras</h2>
+  <div id="carrito"></div>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
